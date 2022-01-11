@@ -1,0 +1,161 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+body .button{
+    background-color: #20B573;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: relative;
+}
+body .button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+/*================== Navigation Section =================*/
+.nav-section{
+    background-color: #F1FFF0;
+}
+.nav-section ul li{
+    padding: 0px 10px;
+    font-weight: 600;
+}
+.nav-section img{
+    width: 20%;
+}
+/*================== Hero Section =================*/
+.hero-section{
+    background-color: #F1FFF0;
+    padding: 100px 0;
+}
+.hero-section h1{
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.4em;
+    color: #041C32;
+}
+.hero-section h3{
+    color: #F75C29;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+.hero-section .span{
+    color: #20B573;
+}
+/*================== Card Section =================*/
+.card-section{
+    padding: 50px 0;
+}
+.card-section .card{
+    background-color: #F8FEFA;
+    border: none;
+    transition: .2s ease-in-out;
+}
+.card-section .card-2{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.card-section .card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #041C32;
+}
+.card-section .card p{
+    font-size: 18px;
+    color: #969797;
+}
+.card-section .card:hover{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+/*================== Course Card Section =================*/
+.course-section{
+    padding: 80px 0;
+}
+.course-section h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #041C32;
+}
+.course-section h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+.course-section p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #585858;
+}
+.course-section .fas{
+    font-size: 20px;
+    color: #585858;
+    padding: 4px 0;
+}
+.course-section .card{
+    border: none;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.course-section .card .card-body{
+    padding: 2rem 0;
+}
+.course-section .card .card-footer{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+/*================== Testimonial Section =================*/
+.testimonial-section{
+    padding: 50px 0;
+}
+.testimonial-section h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #041C32;
+}
+.testimonial-section .carousel-indicators [data-bs-target]{
+    background-color: #20B573;
+    width: 10px;
+    height: 6px;
+    border: 1px solid #20B573;
+    border-radius: 10px;
+    transition: width .3s ease-in-out;
+}
+.testimonial-section .carousel-indicators .active{
+    width: 30px;
+}
+.testimonial-section .carousel-item{
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+.testimonial-section .carousel-item h4{
+    font-weight: 600;
+    padding: 10px 0;
+}
+.testimonial-section img{
+    padding: 20px 50px 50px 50px;
+}
+.testimonial-section p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #041C32;
+    line-height: 2em;
+}
+/*================== Footer Section =================*/
+.footer-section{
+    padding: 50px 0;
+    background-color: #282530;
+}
+.footer-section p:before{
+    content: '\21D2';
+    padding-right: 10px;
+    color: #20B573;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+.footer-section p:hover:before{
+    padding-left: 15px;
+}
